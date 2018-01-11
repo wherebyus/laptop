@@ -182,8 +182,6 @@ What it sets up
 
 [Bundler]: http://bundler.io/
 [chruby]: https://github.com/postmodern/chruby
-[CloudApp]: http://getcloudapp.com/
-[Cloud Foundry CLI]: https://github.com/cloudfoundry/cli
 [Flux]: https://justgetflux.com/
 [git-seekret]: https://github.com/18F/git-seekret
 [GitHub Desktop]: https://desktop.github.com/
@@ -197,7 +195,6 @@ What it sets up
 [NPM]: https://www.npmjs.org/
 [PhantomJS]: http://phantomjs.org/
 [Postgres]: http://www.postgresql.org/
-[pyenv]: https://github.com/yyuu/pyenv/
 [Redis]: http://redis.io/
 [Ruby]: https://www.ruby-lang.org/en/
 [ruby-install]: https://github.com/postmodern/ruby-install

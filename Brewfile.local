@@ -1,4 +1,3 @@
-cask 'sublime-text'
 cask 'firefox'
 cask 'iterm2'
 cask 'spectacle'

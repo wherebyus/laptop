@@ -3,6 +3,11 @@ cask_args appdir: '/Applications'
 brew 'git'
 brew 'libgit2'
 
+brew 'imagemagick'
+
+# Testing
+brew 'qt@5.5' if MacOS::Xcode.installed?
+
 brew 'the_silver_searcher'
 
 tap 'homebrew/services'
@@ -17,10 +22,6 @@ brew 'phantomjs'
 
 brew 'hub'
 
-tap 'cloudfoundry/homebrew-tap'
-brew 'cf-cli'
-
-cask 'cloud'
 cask 'flux'
 cask 'github-desktop'
 cask 'slack'
