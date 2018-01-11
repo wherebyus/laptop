@@ -1,7 +1,5 @@
 Laptop
 ======
-[![Build Status](https://circleci.com/gh/18F/laptop.svg)](https://circleci.com/gh/18F/laptop)
-
 Laptop is a script to set up an OS X computer for web development, and to keep
 it up to date.
 
@@ -34,9 +32,9 @@ and once it appears, press `return` to launch it.
 In your Terminal window, copy and paste the command below, then press `return`.
 
 ```sh
-bash <(curl -s https://raw.githubusercontent.com/18F/laptop/master/laptop)
+bash <(curl -s https://raw.githubusercontent.com/wherebyus/laptop/master/laptop)
 ```
-The [script](https://github.com/18F/laptop/blob/master/mac) itself is
+The [script](https://github.com/wherebyus/laptop/blob/master/mac) itself is
 available in this repo for you to review if you want to see what it does
 and how it works.
 
@@ -172,7 +170,6 @@ What it sets up
 * [nvm] for managing Node.js versions if you do not have [Node.js] already installed (Includes latest [Node.js] and [NPM], for running apps and installing JavaScript packages)
 * [PhantomJS] for headless website testing
 * [Postgres] for storing relational data
-* [pyenv] for managing Python versions if you do not have [Python] already installed (includes the latest 3.x [Python])
 * [Redis] for storing key-value data
 * [ruby-install] for installing different versions of Ruby
 * [Slack] for communicating with your team
@@ -200,7 +197,6 @@ What it sets up
 [NPM]: https://www.npmjs.org/
 [PhantomJS]: http://phantomjs.org/
 [Postgres]: http://www.postgresql.org/
-[Python]: https://www.python.org/
 [pyenv]: https://github.com/yyuu/pyenv/
 [Redis]: http://redis.io/
 [Ruby]: https://www.ruby-lang.org/en/
@@ -235,7 +231,7 @@ curl --remote-name https://raw.githubusercontent.com/18F/laptop/master/Brewfile.
 
 It lets you install the following tools and apps:
 
-* [Atom] - GitHub's open source text editor
+* [Sublime Text] - The text editor we use at WhereBy.Us
 * [Exuberant Ctags] for indexing files for vim tab completion
 * [Firefox] for testing your website on a browser other than Chrome
 * [iTerm2] - an awesome replacement for the OS X Terminal
